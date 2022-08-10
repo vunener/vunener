@@ -1,0 +1,17 @@
+<?php
+/*
+1) Connect to the database created in task 4.
+2) Present the data in the modules database table in a HTML table format on the web page.
+   Provide three different forms on the task page to add, to update and to delete from the modules database table.
+   Details of the forms are given below:
+    - The add form should have three text fields (for the module code, module name and lecturer name) and an Add button.
+      When the form is submitted, the data is read from the form to add a row into the modules database table.
+    - The update form should have two text fields (for module code and lecturer name) and an Update button.
+      When the form is submitted, the lecturer name is updated in the modules database table for the module code indicated.
+    - The delete form should have one text field (for module code) and a Delete button.
+      When the form is submitted, a row from the modules database table is deleted for the module code indicated.
+
+3) You should use the POST method to send the form data to the same script, task4.php.
+   Update the HTML table on the task page whenever adding, updating and deleting of data in the modules database table is successful.
+*/
+?>

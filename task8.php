@@ -1,0 +1,43 @@
+<?php
+include 'menu.inc';
+echo "////////////// Task8 (a) //////////////<br >";
+$monthsNum = range(1,12);
+$monthsString = array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+
+for ($x = 1; $x <= count($monthsNum); $x++) {
+	echo "{$x} - {$monthsString[$x-1]}<br>";
+}
+
+echo "////////////// Task8 (b) //////////////<br >";
+rsort($monthsString); // 1
+
+foreach($monthsString as $key => $val) {
+	echo "$key - $val <br>";
+}
+echo "////////////// Task8 (c) //////////////<br>";
+$monthsString2 = array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+
+foreach($monthsString2 as $key => $val) {
+	echo $key+1, "=>", $val."<br>";
+	$associateArr = array($key+1, "=>", $val."<br>");
+    //echo $associateArr;
+}
+
+echo "////////////// Task8 (d) //////////////<br>";
+asort($associateArr); // 1
+
+foreach($associateArr as $key => $val) {
+	echo "$key - $val <br>";
+}
+
+echo "////////////// Task8 (e) //////////////<br>";
+krsort($associateArr); // 1
+
+foreach($associateArr as $key => $val) {
+	echo "$key - $val <br>";
+}
+
+?>
+<iframe src="task8.txt" height="400" width="1200">
+    Your browser does not support iframes.
+</iframe>

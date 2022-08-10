@@ -1,0 +1,18 @@
+<?php
+/*
+1) Create a database table named "modules", with these columns:
+`code`, which is the primary key for storing unique 7-character module codes name,
+`name`, which stores the names of the modules
+`lecturer`, which stores the primary lecturers of the modules
+
+2) Populate the database table with information of at least 3 modules.
+You need to write PHP code to do the following:
+    - Connect to the database using PDO.
+    - Extract the data in the modules database table and present the data on the task page in the following formats:
+- In a HTML table with appropriate column names.
+- In a comma-separated format where each row in the database table is presented in a new line. For example:
+  - code1,name1,lecturer1
+  - code2,name2,lecturer2
+  - code3,name3,lecturer3
+*/
+?>
